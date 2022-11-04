@@ -1,0 +1,41 @@
+{
+    "cmake": {
+        "type": "github",
+        "owner": "Kitware",
+        "repo": "CMake",
+        "endwith": "x86_64.msi"
+    },
+    "python": {
+        "type": "rlink",
+        "url": "https://www.python.org/ftp/python/${version}/python-${version}-amd64.exe",
+        "version": ["3.11.0", "3.10.8", "3.9.13", "3.8.10", "3.7.9"]
+    },
+    "go": {
+        "type": "rlink",
+        "url": "https://go.dev/dl/go${version}.windows-amd64.msi",
+        "version": ["1.19.3"]
+    },
+    "arm-gnu-toolchain": {
+        "type": "plink",
+        "12.2.mpacbti-bet1": "https://developer.arm.com/-/media/Files/downloads/gnu/12.2.mpacbti-bet1/binrel/arm-gnu-toolchain-12.2.mpacbti-bet1-mingw-w64-i686-arm-none-eabi.exe",
+        "11.3.rel1": "https://developer.arm.com/-/media/Files/downloads/gnu/11.3.rel1/binrel/arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi.exe",
+        "11.2-2022.02": "https://developer.arm.com/-/media/Files/downloads/gnu/11.2-2022.02/binrel/gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi.exe",
+        "10.3-2021.10": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-win32.exe",
+        "10.3-2021.07": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10.3-2021.07/gcc-arm-none-eabi-10.3-2021.07win32/gcc-arm-none-eabi-10.3-2021.07-win32.exe",
+        "10-2020q4": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-win32.exe",
+        "10-2020q2": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q2/gcc-arm-none-eabi-10-2020-q2-preview-win32.exe",
+        "9-2020q2": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-win32.exe",
+        "9-2019q4": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-win32-sha2.exe",
+        "8-2019q3": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/8-2019q3/RC1.1/gcc-arm-none-eabi-8-2019-q3-update-win32-sha2.exe",
+        "8-2018q4": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/8-2018q4/gcc-arm-none-eabi-8-2018-q4-major-win32-sha2.exe",
+        "7-2018q2": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-win32-sha2.exe",
+        "6-2017q2": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/6-2017q2/gcc-arm-none-eabi-6-2017-q2-update-win32-sha2.exe",
+        "5_4-2016q3": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/5_4-2016q3/gcc-arm-none-eabi-5_4-2016q3-20160926-win32.exe"
+    },
+    "windows-build-tools-xpack": {
+        "type": "github",
+        "owner": "xpack-dev-tools",
+        "repo": "windows-build-tools-xpack",
+        "endwith": "win32-x64.zip"
+    }
+}
